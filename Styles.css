@@ -1,0 +1,50 @@
+:root {
+  --body-bg-color: #FAF3F0;
+  --pinktext: #D988B9;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--body-bg-color);
+}
+
+.content{
+    padding: 200px;
+    color: var(--pinktext);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.linkarroba{
+    padding: 1em;
+    display:block;
+    color: var(--pinktext);
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    margin: 10px;
+}
+
+
+.links-item{
+    border: 1px solid var(--pinktext);
+    border-radius: 10px;
+    display:block;
+    color: var(--pinktext);
+    text-decoration: none;
+    height: 30px;
+
+}
+
+.icones-content {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.topo-content-img :hover{
+    transform: rotateY(360deg);
+    transition: transform 2000ms;
+}
